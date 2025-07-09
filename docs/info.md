@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simulation of a simple pedestrian traffic light controller. It toggles between green and red lights every free seconds with a countdown.
 
 ## How to test
 
-Explain how to use your project
+The best way to test this project is to simply observe the output pins. After the countdown resets, we will see the uo[0] and uo[1] swap values.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware was explicitly used, but connected LEDs would be a fun way to visualize the change in light values/states.

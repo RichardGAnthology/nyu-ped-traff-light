@@ -20,6 +20,10 @@ module tt_um_richardgonzalez_ped_traff_light (
 wire rst = ! rst_n;
 assign uio_oe = 8'b0000_0000;
 assign uio_out = 8'b0000_0000;
+assign uo_out[7:4] = 4'b0000;
+wire unused_ena = ena;
+wire [7:0] unused_ui_in = ui_in;
+wire [7:0] unused_uio_in = uio_in;
 
 //wire green_light, red_light;
 //wire [1:0] countdown;
